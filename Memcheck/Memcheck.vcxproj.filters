@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Minhook">
+      <UniqueIdentifier>{ddde5ce9-3df2-4837-af1f-63fab77e2d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Keystone">
+      <UniqueIdentifier>{f99277e2-9004-43ff-be04-bfc281c74da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BeaEngine">
+      <UniqueIdentifier>{31b02647-a12e-45a1-b860-216cd569a69f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memcheck.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memscan.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\MinHook.h">
+      <Filter>Resource Files\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\keystone.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="BeaEngine\BeaEngine.h">
+      <Filter>Resource Files\BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BeaEngine\basic_types.h">
+      <Filter>Resource Files\BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BeaEngine\export.h">
+      <Filter>Resource Files\BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BeaEngine\macros.h">
+      <Filter>Resource Files\BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\arm.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\arm64.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\evm.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\hexagon.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\mips.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\ppc.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\sparc.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\systemz.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+    <ClInclude Include="Keystone\x86.h">
+      <Filter>Resource Files\Keystone</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Minhook\MinHook.x86.lib">
+      <Filter>Resource Files\Minhook</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
