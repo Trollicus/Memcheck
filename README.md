@@ -3,3 +3,5 @@ Memcheck is a function that hashes the client data and sends it to the server, w
 
 Update the addys lmao.
 Credits goes to whoever made it and/or modified it.
+
+p.s Fuck you Jayden.
